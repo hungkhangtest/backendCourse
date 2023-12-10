@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://courseacademy.vercel.app/",
+		origin:"https://courseacademy.vercel.app",
 		credentials:true,
 	})
 )
